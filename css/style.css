@@ -9,10 +9,13 @@ header {
      font-family: fantasy;
 }
 
-body {
+h2{
+    color: #3f282f;
+}
 
-    margin: 80px;
-    padding: 50px;
+body {
+    margin: 60px;
+    padding: 40px;
 }
 
 ul {
@@ -21,6 +24,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #6b414f;
+    font-size: larger;
 }
 
 li {
@@ -38,6 +42,7 @@ li a {
 .boxy {
     background: #f7d4e7;
     border: solid 4px #6b414f;
+    margin: 20px;
 }
 
 #asdf {
@@ -73,4 +78,8 @@ section {
 
 .btn .btn-info {
 background-color: #6b414f;
+}
+
+.container{
+    padding:5px;
 }
