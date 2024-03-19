@@ -5,39 +5,28 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Shine Cart</title>
-    <style>
-        body{
-            background-color: #f7d4e7;
-        }
-        #asd{
-            padding: 80px;
-            margin: 50px;
-            background-color: #813b63;
-            color: #f7d4e7;
-            font-size: larger;
-        }
-    </style>
+
 </head>
 
 <header>
     <h1>SHINE BRIGHT SOAPS</h1>
 
     <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="form.html" style="color: black;">ORDER</a></li>
+        <li><a class="a" href="index.html">HOME</a></li>
+        <li><a class="a" href="about.html">ABOUT</a></li>
+        <li><a class="a" href="form.html" style="color: black;">ORDER</a></li>
     </ul>
 
 
 </header>
 
 
-<body>
+<body style="background-color: #f7d4e7;">
     <section id="asd">
 
         <div>
         <form>
-            <h1><center>Your shopping cart</center></h1>
+            <h1><center>Your shopping cart</center></h1><br><br>
             <label>Enter your name: <input type="text" name="Name" placeholder="Name" style="background-color: #f7d4e7;"></label><br><br>
             <label>Enter your mobile number: <input type="text" name="Number" placeholder="Number" style="background-color: #f7d4e7;"></label><br>
 
@@ -51,9 +40,13 @@
         <h1><center>THANK YOU !!</center></h1>
         </form>
         </div><br>
-        <center><button type="button" class="btn btn-info"> GO TO HOME PAGE</button></center>
+        
     </section>
 
+    <center><a href="index.html">
+
+        <button class="button"><span>GO TO HOME PAGE</span></button>
+    </a></center>
 
 </body>
 </html>
