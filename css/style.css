@@ -1,28 +1,47 @@
+:root{
+    --dark:#114232;
+    --green:#87A922;
+    --cream:#F7F6BB;
+    --yellow:#FCDC2A;
+    }
+
 header {
      position: absolute;
      top: 0%;
      right: 0%; 
-     color: #ffffff;
+     color: var(--cream);
      text-align: center;
      width: 100%; 
-     background-color:#5a264d ;
-     font-family: fantasy;
+     background-color: var(--dark) ;
+     font-weight: 500;
+     font-style: normal;
 
 }
 
+.poiret-one-regular {
+    /* font-family: "", sans-serif; */
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 .a:hover{
-    color:black;
+    color:var(--yellow);
     text-decoration: none;
 }
 
 h2{
-    color: #473a3e;
+    color: var(--dark);
 }
 
 body {
     margin: 60px;
     padding: 40px;
-   
+    background-color: var(--cream);
+    font-family: "Philosopher", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
 }
 
 ul {
@@ -42,34 +61,31 @@ li a {
     display: block;
     padding: 8px;
     text-decoration: none;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--cream);
 }
 
 .boxy {
-    background: #f7d4e7;
-    border: solid 4px #6b414f;
+    background: var(--darkcream);
     box-shadow: 5px 5px 10px grey;
-    
-
+    height: 250px;
 }
 
 #asdf {
-    color: #6b414f;
+    color: var(--dark);
     float: right; font-size:x-large; 
     text-align:center;
     text-shadow: 20%; 
     text-decoration: wavy;
     font-weight:20px ;
-    font-family: cursive;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-
-
 footer{
-    background-color: #6b414f;
+    background-color: var(--dark);
     font-size:large ;
-    color: white; 
+    color: var(--cream); 
     position: fixed; 
     bottom: 0%; 
     left:0%; 
@@ -77,25 +93,25 @@ footer{
 }
 
 .about{
-    background-color: #6b414f; 
+    background-color:var(--dark); 
     margin: 40px; 
     padding: 60px;
-    color: white;
+    color: var(--cream);
 }
 
 #asd{
     padding: 80px;
     margin: 50px;
-    background-color: #6b414f;
-    color: #f7d4e7;
+    background-color: var(--dark);
+    color: var(--cream);
     font-size: larger;
 }
 
 .button {
     border-radius: 4px;
-    background-color: #6b414f;
+    background-color:var(--dark);
     border: none;
-    color: #FFFFFF;
+    color: var(--cream);
     text-align: center;
     font-size: 14px;
     padding: 20px;
@@ -110,7 +126,7 @@ footer{
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
+}
   
   .button span:after {
     content: '\00bb';
@@ -119,17 +135,23 @@ footer{
     top: 0;
     right: -20px;
     transition: 0.1s;
-  }
+}
   
   .button:hover span {
     padding-right: 25px;
-  }
+}
   
   .button:hover span:after {
     opacity: 1;
     right: 0;
-  }
+}
 
   .container{
     margin-top: 5%;
-  }
+}
+
+  .mam{
+    height:250px;
+}
+
+
